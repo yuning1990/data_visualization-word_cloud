@@ -23,7 +23,12 @@ python ciyun.py
 ```
 
 ## 输出说明
-图片放在 results 文件夹里。
+图片放在 results 文件夹里。![结果展示](results/col_23.png)
 ## 踩坑说明
 + 先用jieba分的词，也有其他分词方式，有兴趣的可以自己修改代码实现。
 + 细节都在代码里，有兴趣可以细品。
++ 出现generate_from_frequencies OSError: cannot open resource 错误！
+
+很可能是 font_path 找不到。试试"fonts/Alibaba-PuHuiTi-Medium.TTF"，
+
+或者从你自己的机子里先找个默认可以显示中文的字体，如"simfang"，整体都搞明白了，再来搞这个字体细节。

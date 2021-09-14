@@ -13,7 +13,7 @@ def main():
     basename = 'col_23'
     txt_file = f"input_txt/{basename}.txt"
     source_img = "backgrounds/mask-cloud.png"
-    font_path = "fonts/Alibaba-PuHuiTi-Medium.TTF"
+    font_path = "fonts/Alibaba-PuHuiTi-Medium.ttf" # simfang
     content = engine.readTxt(txt_file)
     keywords = engine.textDict(content)
     kwargs = {
